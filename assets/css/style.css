@@ -49,7 +49,7 @@ body{
     }
 
     #presentacion  .contenedor-frase{
-        width: 400px;
+        width: 500px;
         min-width: 380px;
         padding: 10px 30px;
         margin-top: 30px;
@@ -61,7 +61,9 @@ body{
         font-weight: 500;
         color:white;
         margin-top: 20px;
+        text-shadow:  2px 2px  #190d05;
     }
+
     #presentacion .btncontacto{
         padding: 8px 40px;
         background-color: blue;
@@ -89,6 +91,7 @@ body{
 /* servicios*/
 #servicios{
     background-color:#e9e9e9;
+    background-color: #f6f6f4;
     width: 900px;
     margin: 0 auto;
     margin-top: 5px;
@@ -115,7 +118,6 @@ body{
     }
     #servicios .contenedor-card{
         margin: 0 auto;
-        width: 900px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -184,10 +186,10 @@ scale: 105%;
 transition: 500ms;}
 
 #servicios .contenedor-card .card .imagen
-{width: 96%; min-width: 330px; height: 32rem;display: block;background-size: cover;
+{width: 96%; min-width: 320px; height: 32rem;display: block;background-size: cover;
     background-position: center; background-repeat: no-repeat; border-radius: 8px;
 margin: 0 auto;
-margin-top: 7px;
+margin-top: 7px; 
 }
 
 
@@ -280,7 +282,9 @@ font-weight: 600;
     align-items: flex-start;
     align-content: space-between;
     padding: 20px;
-    background-color: #f6f6f4
+    background-color: #f6f6f4;
+    padding-top: 40px;
+
     }
 #quienessomos .contenedor-titulo :hover{
     color: royalblue;
@@ -392,8 +396,11 @@ font-weight: 600;
 
 
     #comofunciona  .contenedor-texto p{
-        font-size: 16px;
+        font-size: 1.6rem;
+        font-weight: 500;
         color: #190d05;
+        text-indent: 2rem;
+        line-height: 2.5rem;
     }
 
     #comofunciona  .contenedor-texto p:hover{
@@ -416,12 +423,12 @@ font-weight: 600;
     }
     
     #formatrabajo .contenedor-titulo{
-        margin: 0 auto;
-        width: 900px;
-        display: flex;
-        align-items: flex-start;
-        align-content: space-between;
-        padding: 20px;
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    padding: 20px;
     background-color: #f6f6f4;
     padding-top: 40px;
     
@@ -522,13 +529,14 @@ font-weight: 600;
     
     .modal-header{
     background-color: #190d05;
-    background-color: #e9e9e9;
     }
 
     .modal-body { 
     font-size: 1.2rem;
     font-weight: 500;
     color: #190d05;
+    text-indent: 1rem;
+    line-height: 2rem;
     padding-top: 20px;
     padding: 50px;
     margin: 20px 10px;
@@ -551,19 +559,29 @@ font-weight: 600;
 
 
 @media screen and (max-width:550px){ #presentacion .contenedor-frase {   
-    max-width: 90%;
-    align-items: center;  
+max-width: 90%;
+align-items: center;  
 height: auto; background-color: #0005; text-align: center;}    
-    }
+}
    
 
-    @media screen and (max-width:550px){ #servicios .contenedor-card .foto-card  {   
-        width: 100%;   
-    height: auto;   }    
-        }
-    
-    
+   
+@media screen and (max-width:550px){ #servicios .contenedor-card  .card {   
+width: 95%;   
+align-items: center;   }    
+}
 
+          @media screen and (max-width:550px){ #collapseExample1 .cardservicios {   
+                    width: 90%;   
+                    align-items: center;   }    
+                        }
+        
+     @media screen and (max-width:550px){ #collapseExample2 .cardservicios .meta-sission1 {   
+                            height: auto; 
+                     }    
+                                }
+                
+        
 
 
 
