@@ -20,7 +20,7 @@ body{
     background-image: url(../img/fondo-presentacion.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
-    height: 360px;
+    height: 380px;
 }
 
 #presentacion .logo{
@@ -39,6 +39,7 @@ body{
     width: 800px;
     display: flex;
     flex-direction: row;
+    
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
@@ -48,10 +49,10 @@ body{
     }
 
     #presentacion  .contenedor-frase{
-        width: 360px;
-        min-width: 340px;
+        width: 400px;
+        min-width: 380px;
         padding: 10px 30px;
-        margin-top: 1px;
+        margin-top: 30px;
         background-color: none;
         margin-bottom: 1px;
     }
@@ -72,8 +73,6 @@ body{
 
     #presentacion .btncontacto:hover{
         background-color: blueviolet;
-        
-        
     }
     #presentacion .btncontacto a{
         color: white;
@@ -318,6 +317,7 @@ font-weight: 600;
     background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);    min-width: 380px;
     padding: 10px 5px;
     margin-bottom: 30px;
+    box-shadow: 0 4px 14px 0 #0005;
 }
 #carouselExampleInterval .carousel-inner{
     width: 80%;
@@ -346,7 +346,9 @@ font-weight: 600;
     align-items: flex-start;
     align-content: space-between;
     padding: 20px;
-    background-color: #fefffa
+    background-color: #fefffa;
+    padding-top: 40px;
+
     }
 
 #comofunciona .contenedor-titulo h2{
@@ -414,13 +416,15 @@ font-weight: 600;
     }
     
     #formatrabajo .contenedor-titulo{
-    margin: 0 auto;
-    width: 900px;
-    display: flex;
-    align-items: flex-start;
-    align-content: space-between;
-    padding: 20px;
-    background-color: #f6f6f4
+        margin: 0 auto;
+        width: 900px;
+        display: flex;
+        align-items: flex-start;
+        align-content: space-between;
+        padding: 20px;
+    background-color: #f6f6f4;
+    padding-top: 40px;
+    
     }
     
     #formatrabajo .contenedor-titulo h2{
@@ -435,11 +439,11 @@ font-weight: 600;
     width: 900px;
     display: flex;
     flex-direction: row;
+    padding: 10px;
     align-items: top;
     align-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
     background-color: #f6f6f4;
     }
     
@@ -453,7 +457,7 @@ font-weight: 600;
     
     border-radius: 12px;
     transition: all 0.3s;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
     box-shadow: 0 3px 4px 0 #0001
 
@@ -468,11 +472,10 @@ font-weight: 600;
         font-size: 1.8rem;
         font-weight: 600;
         color: #190d05;
-        padding-top: 20px;
         }
 
 
-    #formatrabajo .contenedor-card .c1:hover, .c2:hover , .c3:hover , .c4:hover  , .c5:hover  , .c6:hover  {
+    #formatrabajo .contenedor-card .c1:hover {
         transition: 400ms;
         scale:(1.04);
         box-shadow: 0 4px 14px 0 #0005;
@@ -484,15 +487,21 @@ font-weight: 600;
     #formatrabajo .contenedor-card .c3:hover   {
         transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;
     }
-
+    #formatrabajo .contenedor-card .c4:hover   {
+        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;
+    } 
+    #formatrabajo .contenedor-card .c5:hover   {
+        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;
+    } 
+    #formatrabajo .contenedor-card .c6:hover   {
+        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;
+    }
    #formatrabajo .card .botonmas{
-text-align-last: right;
+    text-align-last: right;
 
-vertical-align: bottom;
-margin-bottom: 0;
-
-
-}
+    vertical-align: bottom;
+    margin-bottom: 0;
+    }
 
     #formatrabajo  .card .spam { 
     background-color: #190d05;  
@@ -503,20 +512,17 @@ margin-bottom: 0;
     font-size: 1.8rem;    
     }
 
-   
-    
     #exampleModalLabel{
-        font-size: 1.6rem;
-        font-weight: 600;
-        color: #190d05;
-        padding-top: 10px;
-        color: white;
-       
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #190d05;
+    padding-top: 10px;
+    color: white;
     }
     
     .modal-header{
-        background-color: #190d05;
-        background-color: #e9e9e9;
+    background-color: #190d05;
+    background-color: #e9e9e9;
     }
 
     .modal-body { 
@@ -544,12 +550,12 @@ margin-bottom: 0;
 
 
 
-@media screen and (max-width:550px){ #presentacion .contenedor-texto  {   
-    max-width: 310px;
+@media screen and (max-width:550px){ #presentacion .contenedor-frase {   
+    max-width: 90%;
     align-items: center;  
-height: auto; }    
+height: auto; background-color: #0005; text-align: center;}    
     }
-
+   
 
     @media screen and (max-width:550px){ #servicios .contenedor-card .foto-card  {   
         width: 100%;   
@@ -563,15 +569,24 @@ height: auto; }
 
 
 
-    @media screen and (max-width:550px){ #quienessomos .contenedor-titulo, .contenedor-texto  .contenedor-frase  {   
-    max-width: 330px;
-    align-items: center;  
-       }    
-        }
+        @media screen and (max-width:550px){.carruselazul{ width: 96%; padding: 5px; height: auto;}    
+    }
      
     @media screen and (max-width:550px){ #comofunciona .contenedor-titulo, .contenedor-texto  {   
-    max-width: 330px;
+    max-width: 90%;
     align-items: center;  
-          }    
-            }
+    }    
+    }
          
+    @media screen and (max-width:550px){ #formatrabajo .contenedor-card  {   
+    max-width: 100% ;
+    align-items: center;  background-color: violet;
+    }    
+    }
+
+    @media screen and (max-width:550px){ #formatrabajo .card  {   
+    max-width: 45% ;
+    align-items: center;  height: 22rem;
+    }    
+    }
+
