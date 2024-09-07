@@ -204,7 +204,11 @@ margin-top: 7px;
 /* detalle servicios asesorias */
 
 
-.groups .cardservicios{overflow: hidden;display: block; background-color: #e3edf2;}
+.groups .cardservicios{overflow: hidden;display: block; width: 900px;; background-color: #e3edf2;
+     border-radius: 12px;
+    
+     
+    }
 
 
 .groups .cardservicios .foto1 {
@@ -259,9 +263,6 @@ font-weight: 600;
 .groups .cardservicios .flecha{
     padding-left: 10px;
 }
-
-
-
 
 
 /* quienes somos*/
@@ -564,18 +565,23 @@ align-items: center;
 height: auto; background-color: #0005; text-align: center;}    
 }
    
-
    
 @media screen and (max-width:550px){ #servicios .contenedor-card  .card {   
-width: 95%;   
-align-items: center;   }    
+width: 99%;   
+align-items: center;  }    
 }
 
-          @media screen and (max-width:550px){ #collapseExample1 .cardservicios {   
-                    width: 90%;   
-                    align-items: center;   }    
+        @media screen and (max-width:550px){ #collapseExample1 .cardservicios {   
+            width: 90%;   
+            align-items: center;   }    
                         }
-        
+        @media screen and (max-width:550px){ #collapseExample2 .cardservicios {   
+            width: 90%;   
+            align-items: center;   }    
+                                }
+
+       
+
      @media screen and (max-width:550px){ #collapseExample2 .cardservicios .meta-sission1 {   
                             height: auto; 
                      }    
