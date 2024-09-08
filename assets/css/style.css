@@ -570,6 +570,18 @@ height: auto; background-color: #0005; text-align: center;}
 width: 99%;   
 align-items: center;  }    
 }
+@media screen and (max-width:550px){ #servicios .contenedor-titulo   {   
+    width: 100%;   }    
+}
+
+@media screen and (max-width:550px){ #quienessomos .contenedor-titulo   {   
+    width: 100%;   }    
+}
+
+@media screen and (max-width:550px){ #comofunciona .contenedor-titulo   {   
+    width: 100%;   }    
+}
+
 
         @media screen and (max-width:550px){ #collapseExample1 .cardservicios {   
             width: 90%;   
