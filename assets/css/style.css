@@ -225,7 +225,13 @@ background-image: url(../img/istockphoto-1600879970-1024x1024.jpg);}
 .groups .cardservicios .foto2 {
 background-image: url(../img/istockphoto-1390642489-1024x1024.jpg);}
 
-
+.groups .cardservicios .foto3 {
+    background-image: url(../img/istockphoto-992867836-1024x1024.jpg);}
+.groups .cardservicios .foto4 {
+        background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
+        
+        
+    
 .cardservicios   span{
 background-color: #f2b90c;
 padding: 5px 15px;
@@ -279,7 +285,12 @@ font-weight: 600;
 #collapseExample2  {
     margin: 0 auto;
 }
-
+#collapseExample3  {
+    margin: 0 auto;
+}
+#collapseExample4  {
+    margin: 0 auto;
+}
 
 /* quienes somos*/
 #quienessomos{
@@ -608,7 +619,15 @@ align-items: center;  }
             width: 90%;   
             align-items: center;   }    
                                 }
-
+        @media screen and (max-width:550px){ #collapseExample3 .cardservicios {   
+            width: 90%;   
+            align-items: center;   }    
+                                    }
+        @media screen and (max-width:550px){ #collapseExample4 .cardservicios {   
+            width: 90%;   
+            align-items: center;   }    
+                     }
+                        
        
 
      @media screen and (max-width:550px){ #collapseExample2 .cardservicios .meta-sission1 {   
