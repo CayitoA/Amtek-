@@ -62,11 +62,13 @@ body{
         color:white;
         margin-top: 20px;
         text-shadow:  2px 2px  #190d05;
+        text-shadow: 2px 2px 2px #555658;
     }
 
     #presentacion .btncontacto{
         padding: 8px 40px;
-        background-color: blue;
+        background-color: #0833a2;
+       background-color:  #0000ad;
         margin-top: 20px;
         border-radius: 8px;
         border: none;
@@ -74,7 +76,7 @@ body{
     }
 
     #presentacion .btncontacto:hover{
-        background-color: blueviolet;
+        background-color: #1E88E5;
     }
     #presentacion .btncontacto a{
         color: white;
@@ -151,6 +153,9 @@ body{
         background-color: #e3edf2;    
         margin-top: 10px;
         border-radius: 8px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #190d05;   
         }
 
         #servicios  .card h3{
@@ -161,11 +166,13 @@ body{
         padding-bottom: 10px;
         }
 
-        #servicios  .card h4{
-        font-size: 1.6rem;
-        font-weight: 500;
-        color: #190d05;   
+        #servicios  .card .contenedorbtn .btn:hover {
+        background-color: #190d05;    
+        margin-top: 10px;
+        border-radius: 8px;
+        color: white;
         }
+        
 
 
         #servicios  .card .contenedor-texto{
@@ -204,6 +211,8 @@ margin-top: 7px;
 /* detalle servicios asesorias */
 
 
+
+
 .groups .cardservicios{overflow: hidden;display: block; width: 900px;; background-color: #e3edf2;
      border-radius: 12px;
     
@@ -233,8 +242,8 @@ font-weight: 600;
     font-size: 1.4rem;
 }
 .groups .image-session1{float: left;overflow: hidden;margin-right: 20px;}
-.groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;background-size: cover;
-    background-position: center; background-repeat: no-repeat;}
+.groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;
+    background-size: cover; background-position: center; background-repeat: no-repeat;}
 .groups .meta-sission1{position: relative;padding: 15px;display: block;height: 32rem;}
 .groups .meta-sission1 .head{display: flex; margin: 0 auto; }
 .groups .meta-sission1 .head .catogry{list-style: none;text-decoration: none;font-size: 1.4rem;
@@ -262,6 +271,13 @@ font-weight: 600;
 }
 .groups .cardservicios .flecha{
     padding-left: 10px;
+}
+
+#collapseExample1  {
+    margin: 0 auto;
+}
+#collapseExample2  {
+    margin: 0 auto;
 }
 
 
@@ -533,7 +549,7 @@ font-weight: 600;
     }
 
     .modal-body { 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: #190d05;
     text-indent: 1rem;
@@ -552,6 +568,7 @@ font-weight: 600;
 
 .fondo{
     background-color: royalblue;
+   background-color:  #0000ad ;
     padding: 100px 30px;
 }
 
@@ -562,7 +579,7 @@ font-weight: 600;
 @media screen and (max-width:550px){ #presentacion .contenedor-frase {   
 max-width: 90%;
 align-items: center;  
-height: auto; background-color: #0005; text-align: center;}    
+height: auto; text-align: center;}    
 }
    
    
@@ -613,16 +630,22 @@ align-items: center;  }
     align-items: center;  
     }    
     }
-         
+
+    @media screen and (max-width:550px){ #formatrabajo .contenedor-titulo, .contenedor-texto  {   
+    max-width: 90%;
+    align-items: center;  
+    }    
+    }  
+
     @media screen and (max-width:550px){ #formatrabajo .contenedor-card  {   
     max-width: 100% ;
-    align-items: center;  background-color: violet;
+    align-items: center; 
     }    
     }
 
     @media screen and (max-width:550px){ #formatrabajo .card  {   
     max-width: 45% ;
-    align-items: center;  height: 22rem;
+    align-items: right;  height: 22rem;
     }    
     }
 
