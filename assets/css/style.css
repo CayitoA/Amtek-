@@ -924,14 +924,7 @@ align-items: center;
     background-color: white;
     border-radius: 12px;
 }
-#formulario .logo{
-    background-image: url(../img/logo-color-banner.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 45px;
-    width: auto ;
-    margin: 20px ;
-}
+
 #formulario  h1 {
     font-size: 2.4rem;
     font-weight: 600;
@@ -979,9 +972,86 @@ align-items: center;
 
 
 
+/* inicio footer */
+
+#piedepagina{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    padding: 50px 0 ;
+    }
+
+#piedepagina .contenedor-footer {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: none;
+    justify-content: space-between;
+    text-align: left;
+    background-color: none;
+}
+
+#piedepagina .contenedor-footer  .titulo{
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+color: #a4a4a4;
+}
+#piedepagina .contenedor-footer  .subtitulo{
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    padding: 10px 20px;
+}  
+
+#piedepagina .contenedor-footer  ul {
+    
+  list-style: none;
+  
+}  
 
 
+#piedepagina .contenedor-footer .contenerdorlogo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  
+}
 
+       
+        #piedepagina .contenedor-footer .logo{
+            background-image: url(../img/logo-blanco.svg);
+            background-repeat: no-repeat;
+            width: 230px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-basis: 230px;
+            max-width: 250px;
+            flex-grow: 1;
+            margin:  10px;
+            padding: 20px;
+            align-content: center;
+            text-align: center;
+            padding: 10px 20px;
+
+            background-color: none;
+        
+
+           }
 
 
 
