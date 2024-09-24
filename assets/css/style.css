@@ -196,6 +196,7 @@ body{
     flex-wrap: wrap;
     background-color: #121212;
     gap: 50px;
+    padding-bottom: 50px;
     }
        
 /* card nuevas verticales */
@@ -311,29 +312,31 @@ body{
     margin: 20px 0;
 }
 
-.groups .cardservicios{overflow: hidden;display: block; width: 900px;; background-color: #e3edf2;
+.groups .cardservicios{overflow: hidden;display: block; width: 900px;; 
      border-radius: 15px;
-     background-color: #101923;
-     background-color: #190d05;
-     background: linear-gradient(70deg,#00234f, #1d4d86);   
-     background: linear-gradient(70deg,#252525, #00234f);   
-     background: linear-gradient(to bottom right,#00234f, #1d4d86);   
-     background: linear-gradient(to bottom right,#00234f, #121212);   
      background: linear-gradient(70deg,#121212, #252525);   
 
     }
-
+    .groups .cardservicios2{overflow: hidden;display: block; width: 900px;; background-color: #e3edf2;
+        border-radius: 15px;
+      
+        background: linear-gradient(70deg,#00234f, #1d4d86);   
+        background: linear-gradient(70deg,#252525, #00234f);   
+        background: linear-gradient(to bottom right,#00234f, #1d4d86);   
+        background: linear-gradient(to bottom right,#00234f, #121212);   
+        background: linear-gradient(70deg,#252525, #101923 );   
+       }
 
 #desglose  .groups .cardservicios .foto1 {
-background-image: url(../img/istockphoto-1600879970-1024x1024.jpg);}
-.groups .cardservicios .foto2 {
-background-image: url(../img/istockphoto-1390642489-1024x1024.jpg);}
-#desglose  .groups .cardservicios .foto3 {
-background-image: url(../img/istockphoto-992867836-1024x1024.jpg);}
-.groups .cardservicios .foto4 {
-background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
+    background-image: url(../img/istockphoto-992867836-1024x1024.jpg);}
+    .groups .cardservicios .foto2 {
+        background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
+        #desglose  .groups .cardservicios2 .foto3 {
+            background-image: url(../img/istockphoto-1600879970-1024x1024.jpg);}
+            .groups .cardservicios2 .foto4 {
+                background-image: url(../img/istockphoto-1390642489-1024x1024.jpg);}
         
-   
+ 
 
 #desglose .cardservicios .tituloservicios  {
     font-size: 2.6rem;
@@ -345,7 +348,6 @@ background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
     font-size: 1.4rem;
     color: #f5f5f7;
 }
-          
 #desglose   .cardservicios   span{ 
     background-color: #e3e4e5;
     padding: 3px 15px;
@@ -354,8 +356,27 @@ background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.2rem;    
-       }
-    
+}
+
+#desglose .cardservicios2 .tituloservicios  {
+    font-size: 2.6rem;
+    font-weight: 500;
+    padding: 15px 0;
+    color: white;
+}
+.cardservicios2 .detalle  {
+    font-size: 1.4rem;
+    color: #f5f5f7;
+}
+#desglose   .cardservicios2   span{ 
+    background-color: #e3e4e5;
+    padding: 3px 15px;
+    border-radius: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;    
+}
 
 .groups .image-session1{float: left;overflow: hidden;margin-right: 20px;}
 .groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;
@@ -386,8 +407,27 @@ background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
     padding-left: 10px;
 }
 
+.cardservicios2 .meta-sission1  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cardservicios2 .body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+}
+.groups .cardservicios2 .flecha{
+    padding-left: 10px;
+}
+
 #collapseExample1  {
     margin: 0 auto;
+    padding-bottom: 40px;
+
 }
 #collapseExample2  {
     margin: 0 auto;
@@ -397,6 +437,7 @@ background-image: url(../img/istockphoto-1614965646-1024x1024.jpg);}
 }
 #collapseExample4  {
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 #card1  {
     margin: 0 auto;
@@ -545,6 +586,8 @@ margin-top: 7px;
     padding-bottom: 40px;
     background: linear-gradient(to bottom right,#00234f, #1d4d86);   
     background: linear-gradient(70deg,#00234f, #1d4d86);   
+    background: linear-gradient(70deg,#00244f, #121212);   
+
 
 
 
@@ -591,11 +634,10 @@ margin-top: 7px;
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     border-radius: 12px;
     height: 100%;
-    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);   
-    background: #003366; 
+    background: linear-gradient(to bottom right,#003366, #00234f  );   
     min-width: 380px;
     padding: 10px 5px;
     margin-bottom: 30px;
