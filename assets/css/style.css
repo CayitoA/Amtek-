@@ -734,10 +734,11 @@ margin-top: 7px;
     }
 
     #comofunciona .contenedor-card .card-funciones .imagen
-    {width: 270px; min-width: 270px; height: 24rem;display: block;background-size: cover;
+    {width: 270px ; height: 24rem;display: block;background-size: cover;
     background-position: center; background-repeat: no-repeat; border-radius: 8px;
     margin: 0 ;  align-items: center; align-content: center;
     justify-content: center;
+    object-fit: cover;
     }
     
     #comofunciona .contenedor-card .contenedor-texto {
@@ -746,25 +747,31 @@ margin-top: 7px;
   
     background-color: none;
 
-    vertical-align: middle;
-
 
     }
     
+
+
     #comofunciona .card-funciones .textofunciones  {
+        display: flex;
         margin: 0 auto;
+        height: 26rem;
     font-size: 1.4rem;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
     font-weight: 500;
     padding: 15px 0;
     color: white;
   
     background-color: none;
     align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    text-align: center;
  
     }
     
-  
+   
 
     #comofunciona  .card-funciones  .flecha{
     padding-left: 10px;
@@ -826,43 +833,109 @@ margin-top: 7px;
     font-size: 3.6rem;
     font-weight: 500;
     padding: 0 12px;
-    color: #f5f5f7;
     }
         
     #formatrabajo .contenedor-card{
-    width: 900px;
-   
-    padding: 10px 0;
-    align-items: top;
-    align-content: center;
-    flex-wrap: wrap;
-    background-color: #f5f5f7;
+        margin: 0 auto;
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: white;
+        justify-content: space-between;
+        border-radius: 12px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     
     #formatrabajo  .card{
+        margin: 0 auto;
+        display: flex;
+
     
-    
-    background-color: whitesmoke;
-    
-    border-radius: 12px;
-    transition: all 0.3s;
+        width: 12rem;
+        padding: 0;
+    background-color: none;
     flex-wrap: wrap;
-    box-shadow: 0 5px 8px 0 #474747
+    border: none;
+    background-color: none;
+    
+    }
+    #formatrabajo  .cardt2{
+        margin: 0 auto;
+        display: flex;
+
+        width: 12rem;
+        padding: 5px;
+    flex-wrap: wrap;
+    background-color: none;
+    
+    }
+
+    #formatrabajo .contenedor-icono {
+        margin: 0 auto;
+        display: flex;
+       
+        background-color: none;
+        align-items: top;
+      
+    }
+
+
+
+    #formatrabajo .contenedor-icono2 {
+        margin: 0 auto;
+        display: flex;
+       
+        background-color: none;
+        align-items: end ;
+      
+    }
+
+    #formatrabajo  .icono{
+        background-image: url(../img/icono.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+       
+        text-align: center;
+
+        background-color: none;
+        margin-bottom: 20px;
+        justify-content: center;
+        
+    }
+
+    #formatrabajo .contenedor-card .card {
+       align-items: center;
+       justify-content: center;
 
     }
 
-    #formatrabajo  .container{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-gap: 20px;
-    }
 
-    #formatrabajo .contenedor-card .card .container{
-        display: grid;
-        grid-template-columns: 2fr 1fr ;
-        grid-gap: 10px;
-        justify-content: space-between;
+    #formatrabajo .contenedor-card .cardt2 .container{
+       
+        height: 7rem;
+        justify-content: center;
+        display: flex;
+        align-items: end;
+        background-color: none;
+
     }
+#formatrabajo .flecha{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    background-color: none;
+    width: 20px;
+
+}
+
 
 
     #formatrabajo  .card h3{
@@ -874,34 +947,12 @@ margin-top: 7px;
 
     }
     #formatrabajo  .card h3:hover{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 600;
         color: #190d05;
         }
 
-
-    #formatrabajo .contenedor-card .c1:hover {
-        transition: 400ms;
-        scale:(1.04);
-        box-shadow: 0 4px 14px 0 #0005;
-        background-color: #f5f5f7;
-    }
-   
-    #formatrabajo .contenedor-card .c2:hover   {
-        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;background-color: #f5f5f7;
-    }
-    #formatrabajo .contenedor-card .c3:hover   {
-        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005; background-color: #f5f5f7;
-    }
-    #formatrabajo .contenedor-card .c4:hover   {
-        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;background-color: #f5f5f7;
-    } 
-    #formatrabajo .contenedor-card .c5:hover   {
-        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;background-color: #f5f5f7;
-    } 
-    #formatrabajo .contenedor-card .c6:hover   {
-        transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;background-color: #f5f5f7;
-    }
+    
    #formatrabajo .card .botonmas{
     align-content: flex-end;
     background-color: none;
@@ -917,18 +968,83 @@ margin-top: 7px;
     font-size: 1.4rem;    
     }
 
-    #exampleModalLabel{
-    font-size: 1.6rem;
+    /* card tipo 2 invertida */
+
+    #formatrabajo .contenedor-card .cardt2 .container{
+        height: 7rem;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+    }
+
+
+    #formatrabajo  .cardt2 h3{
+    font-size: 1.4rem;
     font-weight: 600;
     color: #190d05;
+    background-color: none;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+    }
+    #formatrabajo  .cardt2 h3:hover{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #190d05;
+        }
+
+
+        #formatrabajo  .icono2{
+            background-image: url(../img/icono.svg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+           
+            text-align: center;
+    
+            background-color: none;
+            justify-content: center;
+            align-items: end ;
+            
+        }
+
+   #formatrabajo .cardt2 .botonmas{
+    align-content: flex-end;
+    background-color: none;
+    text-align: center;
+    }
+
+    #formatrabajo  .cardt2 .spam { 
+    background-color: #190d05;  
+    padding: 5px;
+    border-radius: 50% ;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;    
+    }
+
+/* modal */
+
+    #exampleModalLabel{
+    font-family: "Kanit", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
     padding-top: 10px;
     color: white;
+    padding-left: 50px;
+    
     }
     
 
 
     .modal-header{
-    background-color: #003366;
+    background-color: #190d05;
+   
     }
 
     .modal-body { 
@@ -952,6 +1068,7 @@ margin-top: 7px;
 .fondo{
    background-color:  #003366 ;
     padding: 100px 30px;
+    backdrop-filter: blur(3px);
 }
 
 
@@ -983,7 +1100,10 @@ margin-top: 7px;
     display: grid;
     flex-direction: row;
     padding: 40px 30px ;
-    background-color: #003366;
+    border: 3px solid #f5f5f7;
+
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
    
 }
 
@@ -1247,8 +1367,14 @@ width: 90%;  align-items: center;
     }    
     }
 
-    @media screen and (max-width:550px){ #comofunciona .fotocard  {   
-        width: 100%;   align-items: center;  background-color:yellow;
+    @media screen and (max-width:550px){ #comofunciona  .fotocard  {   
+         align-items: center;  background-color:none; ;
+    }    
+    }
+
+
+    @media screen and (max-width:550px){ #comofunciona .card-funciones .textofunciones {   
+        height: auto;
     }    
     }
 
