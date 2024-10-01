@@ -626,9 +626,14 @@ margin-top: 7px;
         flex-direction: row;
         flex-wrap: wrap;
         background-color: none;
-    justify-content: space-between;      
-    background-color: aquamarine;
-    padding: 20px 0;
+    justify-content: space-evenly;      
+    background-color: none;
+    padding: 50px 0;
+    }
+
+    #quienessomos .contenedor .frase {
+       width: 60%;
+     
     }
 
     #quienessomos  .icono{
@@ -640,9 +645,10 @@ margin-top: 7px;
         display: flex;
         align-items: center;
         align-content: center;
-        text-align: center;
+        text-align: end;
         background-color: none;
         justify-content: center;
+        margin-right: 20px;
         
     }
 
@@ -671,21 +677,25 @@ margin-top: 7px;
     background-color: #121212;
     min-width: 380px;
     padding: 10px 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     box-shadow: 0 4px 14px 0 #252525;
 }
 #carouselExampleInterval .carousel-inner{
     width: 85%;
+    background-color: none;
 }
 #carouselExampleInterval h4{
     color: #f5f5f7;
-    text-align: left;
+    text-align: center;
     padding: 30px 20px;
     font-weight: 600;
     font-size: 2rem;
+   
 }
 
-
+#carruselazul .visually-hidden {
+    color: white;
+}
 
 /* como funciona*/
 
@@ -1153,7 +1163,7 @@ margin-top: 7px;
     color: #f5f5f7;
 }
 #formulario  .botonenviar {
-    background-color: #f2b90c;
+    background-color: #003366;
     color: #f5f5f7;
     border-radius: 5px;
     border: none;
@@ -1165,13 +1175,13 @@ margin-top: 7px;
     font-weight: 700;
 }
 #formulario .botonenviar:hover{
-    background-color: #4e5b66;
-    color: white;
+    background-color: #f5f5f7;
+    color: #252525;
     text-decoration: none;
 }
 #formulario .botonenviar:active{
-    background-color: black;
-    color: white;
+    background-color: #f5f5f7;
+    color: #252525;
     text-decoration: none;
 }
 #formulario .form-label{
@@ -1378,10 +1388,16 @@ width: 90%;  align-items: center;
         height: auto;     }    
     }
 
-
+/*  quienes somos */
 
     @media screen and (max-width:550px){.carruselazul { width: 90%; padding: 0px; height: auto;}    
     }
+
+    @media screen and (max-width:550px){.carouselExampleInterval { width: 90%; padding: 0px; height: auto;}    
+}
+
+
+
 
 /*  como funciona */
 
