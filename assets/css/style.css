@@ -669,10 +669,10 @@ margin-top: 7px;
         align-items: center;
         align-content: center;
         background-color: none;
-    justify-content: space-evenly;      
+    justify-content: center;      
     background-color: none;
     padding: 10px 0;
-    height: 14rem;
+    height: 16rem;
 
     }
 
@@ -684,7 +684,7 @@ margin-top: 7px;
 /* seccion azul */
 
 .carruselazul{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -692,7 +692,6 @@ margin-top: 7px;
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-    margin-top: 20px;
     background-color: none;
 }
 
@@ -701,11 +700,12 @@ margin-top: 7px;
     margin: 0 auto;
     display: flex;
     justify-content: center; 
+    align-items: center;
     border-radius: 12px;
     height: 100%;
     background-color: white;
     min-width: 380px;
-    padding: 10px 5px;
+    padding: 20px 5px;
     margin-bottom: 50px;
     box-shadow: 0 4px 14px 0 #0005}
 
@@ -719,7 +719,7 @@ margin-top: 7px;
     padding: 10px 20px;
     font-weight: 600;
     font-size: 1.6rem;
-   
+    line-height: 2.6rem;
 }
 
 #carruselazul .visually-hidden {
@@ -737,9 +737,10 @@ margin-top: 7px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
      align-items: center;
      align-content: center;
+     justify-content: space-between;
+
      padding: 20px;
      background-color: pink;
      background-color: white;
@@ -761,6 +762,7 @@ margin-top: 7px;
     align-content: center;
     transition: 500ms;   
     background-color: none;
+   
     }
 
     #quienessomos .logo:hover{
@@ -799,7 +801,7 @@ margin-top: 7px;
         }
         #quienessomos  .card h3{
         font-size: 1.8rem;
-        font-weight: 500;
+        font-weight: 600;
         color: #190d05;
         padding-top: 20px;
         text-align: center;
@@ -1026,7 +1028,7 @@ justify-content: center;    }
 
     #formatrabajo{
     background-color: #f5f5f7;
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
     margin-top: 0;
     align-items: center;
@@ -1038,7 +1040,7 @@ justify-content: center;    }
     
     #formatrabajo .contenedor-titulo{
     margin: 0 auto;
-    width: 900px;
+    width: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1060,7 +1062,7 @@ justify-content: center;    }
         
     #formatrabajo .contenedor-card{
         margin: 0 auto;
-        width: 900px;
+        width: 950px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1156,7 +1158,6 @@ justify-content: center;    }
 
     background-color: none;
     width: 20px;
-
 }
 
 
@@ -1197,6 +1198,7 @@ justify-content: center;    }
         height: 7rem;
         justify-content: center;
         align-items: center;
+        align-content: center;
         background-color: none;
     }
 
@@ -1227,19 +1229,21 @@ justify-content: center;    }
             display: flex;
             align-items: center;
             align-content: center;
+            justify-content: center;
            
             text-align: center;
     
             background-color: none;
             justify-content: center;
-            align-items: end ;
             
         }
 
    #formatrabajo .cardt2 .botonmas{
-    align-content: flex-end;
+    align-content: center;
     background-color: none;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     }
 
     #formatrabajo  .cardt2 .spam { 
@@ -1362,7 +1366,7 @@ justify-content: center;    }
     font-weight: 700;
 }
 #formulario .botonenviar:hover{
-    background-color: #f5f5f7;
+    background-color: white;
     color: #252525;
     text-decoration: none;
 }
@@ -1547,7 +1551,9 @@ height: auto; text-align: center; padding: 20px 0; }
 @media screen and (max-width:550px){ #comofunciona .contenedor-titulo   {   
     width: 100%; text-align: center;  }    
 }
-
+@media screen and (max-width:550px){ #formatrabajo .contenedor-titulo   {   
+    width: 100%; text-align: center;  }    
+}
 
    /*  proyectos */ 
      
