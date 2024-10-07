@@ -691,7 +691,7 @@ margin-top: 7px;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 0;
     background-color: none;
 }
 
@@ -705,8 +705,7 @@ margin-top: 7px;
     height: 100%;
     background-color: white;
     min-width: 380px;
-    padding: 20px 5px;
-    margin-bottom: 50px;
+    padding: 25px 5px;
     box-shadow: 0 4px 14px 0 #0005}
 
 #carouselExampleInterval .carousel-inner{
@@ -726,11 +725,6 @@ margin-top: 7px;
     color: white;
 }
 
-
-
-
-
-
  #quienessomos .contenedor-logofrase  {
     margin: 0 auto;
     width: 950px;
@@ -742,7 +736,6 @@ margin-top: 7px;
      justify-content: space-between;
 
      padding: 20px;
-     background-color: pink;
      background-color: white;
 
  }
@@ -782,7 +775,7 @@ margin-top: 7px;
         flex-wrap: wrap;
         background-color: #f5f5f7;
         background-color: white;
-        margin-top: 5px;
+        margin-top: 50px;
         }
         
         #quienessomos  .card{
@@ -818,16 +811,20 @@ margin-top: 7px;
             scale:(1.04);
             box-shadow: 0 4px 14px 0 #0005;
             background-color: #f5f5f7;
+            scale: 105%;
         }
             
         #quienessomos .contenedor-card .c2:hover   {
             transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;background-color: #f5f5f7;
+            scale: 105%;
         }
         #quienessomos .contenedor-card .c3:hover   {
             transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005; background-color: #f5f5f7;
+            scale: 105%;
         }
         #quienessomos .contenedor-card .c4:hover   {
             transition: 400ms; scale:(1.04); box-shadow: 0 4px 14px 0 #0005;background-color: #f5f5f7;
+            scale: 105%;
         } 
         
       
@@ -848,6 +845,7 @@ margin-top: 7px;
         margin-bottom: 20px;   
         margin-top: 10px;     
     }
+   
 
 
 /* seccion frase */
@@ -875,9 +873,9 @@ margin-top: 7px;
       padding: 20px;
      }
      #quienessomos .contenedor-textos .texto  h2{
-     font-size: 2rem;
-     font-weight: 500;
-     line-height: 3rem;
+     font-size: 2.2rem;
+     font-weight: 600;
+     line-height: 3.2rem;
      color:black;
      text-align: left;
      }
