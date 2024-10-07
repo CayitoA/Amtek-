@@ -27,7 +27,7 @@ body{
 #barranavegacion {
     width: 100%;
     margin: 0 auto;
-    background-color: #333333;
+    background-color: #190d05;
 
 }
 .logo{
@@ -138,9 +138,7 @@ body{
 
     #presentacion .btncontacto{
         padding: 8px 40px;
-        background-color: #0833a2;
-       background-color:  #0000ad;
-       background-color: #15457d;
+       background-color: #003366;
         margin-top: 20px;
         border-radius: 8px;
         border: none;
@@ -149,14 +147,12 @@ body{
     }
 
     #presentacion .btncontacto:hover {
-        background-color: #1E88E5;
+        background-color: white;
     }
+
     #presentacion .btncontacto:focus {
     outline-offset: 3px; 
-  }
-
-
-
+     }
 
     #presentacion .btncontacto a{
         color: white;
@@ -165,6 +161,15 @@ body{
         text-transform: uppercase;
         text-decoration: none;
     }
+
+    #presentacion .btncontacto a:hover{
+        color: #003366;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
     #presentacion .centrar{
     display: flex;
     justify-content: center;
@@ -647,7 +652,7 @@ margin-top: 7px;
     justify-content: center;
     padding: 20px;
     background-color: none;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 60px;
     }
 
@@ -902,8 +907,8 @@ margin-top: 7px;
     justify-content: center;
     padding: 20px;
     background-color: none ;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #comofunciona .contenedor-titulo h2{
@@ -1044,9 +1049,8 @@ justify-content: center;    }
     justify-content: center;
     padding: 20px;
     background-color: none;
-    padding-top: 60px;
-    padding-bottom: 60px;
-
+    padding-top: 80px;
+    padding-bottom: 80px;
     }
     
     #formatrabajo .contenedor-titulo h2{
@@ -1055,7 +1059,6 @@ justify-content: center;    }
     font-weight: 500;
     padding: 0 12px;
     letter-spacing: 8px;
-
     }
         
     #formatrabajo .contenedor-card{
@@ -1067,15 +1070,13 @@ justify-content: center;    }
         background-color: white;
         justify-content: space-between;
         border-radius: 12px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     
     #formatrabajo  .card{
         margin: 0 auto;
         display: flex;
-
-    
         width: 12rem;
         padding: 0;
     background-color: none;
@@ -1098,13 +1099,10 @@ justify-content: center;    }
     #formatrabajo .contenedor-icono {
         margin: 0 auto;
         display: flex;
-       
         background-color: none;
         align-items: top;
       
     }
-
-
 
     #formatrabajo .contenedor-icono2 {
         margin: 0 auto;
@@ -1138,17 +1136,22 @@ justify-content: center;    }
        justify-content: center;
 
     }
-
+    #formatrabajo .contenedor-card .cardt2 {
+        align-items: center;
+        justify-content: center;
+ 
+     }
 
     #formatrabajo .contenedor-card .cardt2 .container{
-       
+    
         height: 7rem;
         justify-content: center;
         display: flex;
-        align-items: end;
+        flex-direction: column;
         background-color: none;
 
     }
+
 #formatrabajo .flecha{
     margin: 0 auto;
     display: flex;
@@ -1156,8 +1159,14 @@ justify-content: center;    }
 
     background-color: none;
     width: 20px;
+    justify-content: center;
 }
-
+#formatrabajo .contenedor-fecha{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   
+}
 
 
     #formatrabajo  .card h3{
@@ -1166,10 +1175,11 @@ justify-content: center;    }
     color: #190d05;
     background-color: none;
     text-align: center;
+    margin-bottom: 15px;
 
     }
     #formatrabajo  .card h3:hover{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 600;
         color: #190d05;
         }
@@ -1192,13 +1202,7 @@ justify-content: center;    }
 
     /* card tipo 2 invertida */
 
-    #formatrabajo .contenedor-card .cardt2 .container{
-        height: 7rem;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        background-color: none;
-    }
+   
 
 
     #formatrabajo  .cardt2 h3{
@@ -1207,12 +1211,10 @@ justify-content: center;    }
     color: #190d05;
     background-color: none;
     text-align: center;
-    margin-bottom: 50px;
-
-
+    margin-bottom: 5px;
     }
     #formatrabajo  .cardt2 h3:hover{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 600;
         color: #190d05;
         }
@@ -1597,7 +1599,10 @@ height: auto; text-align: center; padding: 20px 0; }
         }    
         }
           
-
+        @media screen and (max-width:550px){ #quienessomos .contenedor-logofrase .logo  {   
+            margin-bottom: 80px;
+            }    
+            }
    
 
 /*  como funciona */
@@ -1627,11 +1632,7 @@ height: auto; text-align: center; padding: 20px 0; }
 
     /*  forma trabajo */
 
-    @media screen and (max-width:550px){ #formatrabajo .contenedor-titulo, .contenedor-texto  {   
-    max-width: 90%;
-    align-items: center;  
-    }    
-    }  
+   
 
     @media screen and (max-width:550px){ #formatrabajo .contenedor-card  {   
     max-width: 100% ;
@@ -1640,10 +1641,28 @@ height: auto; text-align: center; padding: 20px 0; }
     }
 
     @media screen and (max-width:550px){ #formatrabajo .card  {   
-    max-width: 45% ;
-    align-items: right;  height: 22rem;
+    width: 45% ; background-color:none;
+    height: 22rem;
     }    
     }
+
+    @media screen and (max-width:550px){ #formatrabajo .cardt2  {   
+    width: 45% ; background-color: none;
+        height: 22rem;
+        }    
+        }
+
+    @media screen and (max-width:550px){ #formatrabajo .card  {   
+    margin-bottom: 30px;
+    }    
+    }
+    @media screen and (max-width:550px){ #formatrabajo .cardt2  {   
+    margin-bottom: 30px;
+    }    
+    }
+
+
+
 
 /*  formulario */
 
