@@ -245,17 +245,7 @@ body{
     background-color: #121212;
 }
 
-/* repedido
-#servicios .contenedor-card{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: none;
-    gap: 50px;
-    padding-bottom: 50px;
-    }*/
-       
+
 /* servicios*/
 #servicios{
     background-color: #121212;
@@ -373,11 +363,7 @@ body{
             justify-content: center;
             }
 
-            #servicios .contenedorbtn .footer1 {
-                display: flex;
-                flex-direction: column;
-                background-color: yellowgreen;
-            }
+           
  
             #servicios .servi .cardser .contenedorbtn .btn  a{
                 
