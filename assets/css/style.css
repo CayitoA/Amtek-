@@ -61,12 +61,20 @@ body{
     font-weight: 700;  
     color: #1d4d86;
     color: #91a3bf;
+    color:white;
+
 }
 #barranavegacion .categorias a :active {
     font-weight: 700;  
     color:white;
 }
+#barranavegacion .categorias:has(a:hover) a:not(:hover) {
 
+    font-weight: 500;  
+    color: #91a3bf;
+    scale: 0.9;
+    opacity: 0.9;
+}
 
 /* presentacion */
 
@@ -1114,6 +1122,16 @@ justify-content: center;    }
         padding-bottom: 60px;
     }
     
+    #formatrabajo .contenedor-card .dupla{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: white;
+        justify-content: space-between;
+       
+    }
+
     #formatrabajo  .card{
         margin: 0 auto;
         display: flex;
@@ -1201,12 +1219,26 @@ justify-content: center;    }
     width: 20px;
     justify-content: center;
 }
-#formatrabajo .contenedor-fecha{
+
+
+#formatrabajo .centrarflecha{
     margin: 0 auto;
     display: flex;
     align-items: center;
-   
+
+    background-color: none;
+    width: 20px;
+    justify-content: center;
 }
+
+
+#formatrabajo   .d-none{
+    margin: 0 auto;
+    display: flex;
+  justify-items: center;
+}
+
+
 
 
     #formatrabajo  .card h3{
@@ -1251,7 +1283,7 @@ justify-content: center;    }
     color: #190d05;
     background-color: none;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     }
     #formatrabajo  .cardt2 h3:hover{
         font-size: 1.4rem;
@@ -1675,17 +1707,13 @@ height: auto; text-align: center; padding: 20px 0; }
     }    
     }
 
-    @media screen and (max-width:550px){ #formatrabajo .card  {   
-    width: 45% ; background-color:none;
-    height: 22rem;
+    @media screen and (max-width:550px){ #formatrabajo .contenedor-card  .dupla  {   
+    width: 90% ; background-color: none;
+    height: 23rem; margin-bottom: 25px;  align-items: center;
     }    
     }
 
-    @media screen and (max-width:550px){ #formatrabajo .cardt2  {   
-    width: 45% ; background-color: none;
-        height: 22rem;
-        }    
-        }
+   
 
     @media screen and (max-width:550px){ #formatrabajo .card  {   
     margin-bottom: 30px;
